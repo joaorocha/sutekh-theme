@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sutekh Theme</title>
 
+    
+    
+    
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="css/TimeCircles.css" rel="stylesheet">
+
     <!--Sutekh Theme CSS-->
     <link href="css/style.css" rel="stylesheet">
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,59 +27,98 @@
     <![endif]-->
   </head>
   <body>
-    <img src="img/sutekh-theme-layout.jpg" style="width:100%">
+    <!--PAGE-->
+    <div id="page">
+      <!--HEADER-->
+      <header>
+        <div class="navBar">
+          <!--CONTAINER NAVBAR-->
+
+          <div class="container">
+            <nav id="teste">
+              <a href="#home">Home</a>
+              <a href="#intro">Introdução</a>
+              <a href="#apre">Apresentação</a>
+              <a href="#equipe">Equipe</a>
+              <a href="#rotas">Rotas</a>
+              <a href="#faq">FAQ</a>
+              <a href="#inscreva" class="submit pull-right">Inscreva-se</a>
+            </nav>
+          </div><!--END CONTAINER NAVBAR-->
+        </div><!--END NAVBAR-->
+        <!--CONTAINER HEADER-->
+        <div class="overlay"></div>
+        <div class="headerImg">
+          <div id="home">
+            <div class="container">
+              <div class="row">
+                <div class="bloco col-md-6 col-md-offset-3">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="text-center font-extra-big">Alexandria</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="text-center font-big">Egypt Cruise</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div id="DateCountdown" data-date="2015-01-01 00:00:00" style="height: 125px; padding: 0px; box-sizing: border-box;margin-left: 20px;"></div>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div><!--END CONTAINER HEADER-->
+        </div>
+
+        
+      </header><!--END HEADER-->
+      <!--NAVBAR-->
+      <div class="container">
+      </div>
+    </div><!--END PAGE-->
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/TimeCircles.js"></script>
+    <script type="text/javascript">
+
+      $("#DateCountdown").TimeCircles({
+          "animation": "smooth",
+          "bg_width": 0.1,
+          "fg_width": 0.02,
+          "circle_bg_color": "#707070",
+          "time": {
+              "Days": {
+                  "text": "Dias",
+                  "color": "#2bb251",
+                  "show": true
+              },
+              "Hours": {
+                  "text": "Horas",
+                  "color": "#2bb251",
+                  "show": true
+              },
+              "Minutes": {
+                  "text": "Minutos",
+                  "color": "#2bb251",
+                  "show": true
+              },
+              "Seconds": {
+                  "text": "Segundos",
+                  "color": "#2bb251",
+                  "show": true
+              }
+          }
+      });
+
+    </script>
+   
   </body>
 </html>
-
-
-background-image: linear-gradient(to right,rgba(153,93,179,0.6),rgba(44,155,219,0.6));
-
-$("#DateCountdown").TimeCircles({
-    "animation": "smooth",
-    "bg_width": 0.1,
-    "fg_width": 0.0033333333333333335,
-    "circle_bg_color": "#60686F",
-    "time": {
-        "Days": {
-            "text": "Days",
-            "color": "#FFCC66",
-            "show": true
-        },
-        "Hours": {
-            "text": "Hours",
-            "color": "#99CCFF",
-            "show": true
-        },
-        "Minutes": {
-            "text": "Minutes",
-            "color": "#BBFFBB",
-            "show": true
-        },
-        "Seconds": {
-            "text": "Seconds",
-            "color": "#FF9999",
-            "show": true
-        }
-    }
-});
-
-https://www.youtube.com/watch?v=MZsw1xkn5RA
-
-CORES
-2BB251
-70FF98
-
-D2FFE8
-
-
-
-https://www.google.com/maps/place/Kempinski+Nile+Hotel+Cairo/@30.038587,31.230344,17z/data=!3m1!4b1!4m2!3m1!1s0x145840cdb8f441cb:0x59cf96cf4cfe8978
-
-
-Asap
-Ropa Sans
-Nunito
