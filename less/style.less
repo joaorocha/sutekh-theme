@@ -35,6 +35,10 @@ a:visited {
 	color: @color-green;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 .font-big {
 	font-size: @font-size_big;
 }
@@ -80,6 +84,7 @@ nav a {
 
 nav a:hover {
 	color: @color-green !important;
+	text-decoration: none;
 }
 
 #home {
@@ -92,6 +97,11 @@ nav a:hover {
 	width: 100%;
 	height: 510px;
 	background: url(../img/video-cover.01.png);
+}
+
+.overlay-parallax {
+	.overlay;
+	height: 360px;
 }
 
 .headerImg {
@@ -113,4 +123,160 @@ nav a:hover {
 	line-height: 35px;
 }
 
+.patrocinio {
+	background-color: @color-green_light;
+	color: @color-gray;
+	text-align: center;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid @color-gray + #111;
+}
 
+.patrocinio img {
+	margin-top: -10px;
+}
+
+.title {
+	font-family: @font-open_sans;
+	font-size: @font-size_big;
+	color: @color-green;
+	background-color: @color-white;
+	padding-right: 15px; 
+	position: absolute;
+}
+
+.divider-title {
+	height: 3px;
+	width: 100%;
+	margin-top: 45px;
+	background-color: @color-green_light;
+}
+
+.inner {
+	margin-top: 50px;
+	color: @color-gray;
+	font-family: @font-open_sans;
+	font-size: @font-size_small;
+}
+
+.inner p {
+	text-indent: 10px;
+}
+
+.inner h5 {
+	color: @color-black;
+	font-size: @font-size_avarage;
+}
+
+.divider-dashed hr {
+	width: 100%;
+	margin: 15px 0px;
+	border: 0.09em dashed @color-gray;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.pad-sec {
+	padding-bottom: 45px;
+}
+
+.divider-solid {
+	width: 100%;
+	height: 5px;
+	background-color: @color-green;
+}
+
+.parallax {
+	margin: 0;
+	background-size: 100%;
+	height: 360px;
+	overflow: hidden;
+	width: 100%;
+	background-size: cover;
+}
+
+#parallax1 {
+	background: url('../img/parallax1.jpg') 100% no-repeat fixed;
+	.parallax;
+}
+
+#parallax2 {
+	background: url('../img/parallax2.jpg') 100% no-repeat fixed;
+	.parallax;
+}
+
+
+.member {
+	border-bottom: 1px solid @color-gray;
+}
+
+.member:hover {
+	background-color: @color-green_light;
+}
+
+.member-header img {
+	width: 100%;
+}
+
+.func {
+	color: @color-green;
+	margin-top: -10px;
+}
+
+.member-body {
+	padding: 5px;
+}
+
+.redes {
+	background-color: @color-green;
+	height: 230px;
+}
+
+.redes h1 {
+	color: @color-green_light;
+	font-family: @font-open_sans;
+}
+
+.redes img {
+	width: 68px;
+	height: 68px;
+}
+
+.tooltip-test {
+	padding: 24px 0px 27px 0px;
+}
+
+.maps {
+	margin-top: 40px;
+}
+
+.maps iframe {
+	width: 100%;
+}
+
+
+.overlaymap {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}

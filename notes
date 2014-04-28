@@ -1,47 +1,9 @@
 background-image: linear-gradient(to right,rgba(153,93,179,0.6),rgba(44,155,219,0.6));
 
-$("#DateCountdown").TimeCircles({
-    "animation": "smooth",
-    "bg_width": 0.1,
-    "fg_width": 0.0033333333333333335,
-    "circle_bg_color": "#60686F",
-    "time": {
-        "Days": {
-            "text": "Days",
-            "color": "#FFCC66",
-            "show": true
-        },
-        "Hours": {
-            "text": "Hours",
-            "color": "#99CCFF",
-            "show": true
-        },
-        "Minutes": {
-            "text": "Minutes",
-            "color": "#BBFFBB",
-            "show": true
-        },
-        "Seconds": {
-            "text": "Seconds",
-            "color": "#FF9999",
-            "show": true
-        }
-    }
-});
-
-https://www.youtube.com/watch?v=MZsw1xkn5RA
-
-CORES
-2BB251
-70FF98
-
-D2FFE8
 
 
 
 https://www.google.com/maps/place/Kempinski+Nile+Hotel+Cairo/@30.038587,31.230344,17z/data=!3m1!4b1!4m2!3m1!1s0x145840cdb8f441cb:0x59cf96cf4cfe8978
 
-
 Asap
 Ropa Sans
-Nunito
