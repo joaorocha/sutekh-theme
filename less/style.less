@@ -335,3 +335,90 @@ nav a:hover {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+
+/*dl.Zebra_Accordion { width: 100%; font-family: Arial, sans-serif; font-size: 12px }
+dl.Zebra_Accordion dt { background: #000; color: #FFF; font-weight: bold; padding: 5px }
+dl.Zebra_Accordion dd { background: #EFEFEF; padding: 15px; margin: 1px 0; height:400px;}
+ 
+dl.Zebra_Accordion dt.Zebra_Accordion_Expanded { background: #C40000 }
+*/
+
+dl.Zebra_Accordion {
+	width: 100%;
+	font-family: @font-open_sans;
+	font-size: @font-size_avarage;
+	color: @color-gray;
+}
+
+dl.Zebra_Accordion dt {
+	background: @color-green_light; 
+	color: @color-gray; 
+	padding: 15px 5px; 
+	border-left: 4px solid @color-green; 
+	height: 60px; 
+	margin: 3px 0px; 
+	cursor: pointer;
+}
+
+dl.Zebra_Accordion dd { 
+	background: @color-green_light; 
+	color: @color-gray; 
+	font-size: @font-size_small;
+	padding: 15px; 
+	margin: -3px 0;
+	margin-bottom: 3px;
+	height: 170px;
+
+}
+ 
+dl.Zebra_Accordion dt.Zebra_Accordion_Expanded { 
+	background: @color-green; 
+	color: @color-white; 
+	border-left: 4px solid @color-green_dark;
+}
+
+.footer{
+	text-align: center;
+	background-color: @color-green_light;
+	border-top: 1px solid @color-gray;
+}
+
+.footer p {
+	color: @color-gray;
+}
+
+.footer.pad-sec {
+	padding-bottom: 10px;
+}
+
+.footer input[type="submit"] {
+	width: 20%;
+	height: 50px;
+	margin: 0px auto;
+	background-color: @color-green;
+	color: @color-white;
+	font-family: @font-open_sans;
+	border: none;
+	padding: 10px;
+	.transition;	
+}
+
+.footer input[type="submit"]:hover {
+	background-color: @color-green + #111;
+}
+
+.footer a img{
+	width: 30px;
+	height: 30px;
+	background-color: #a1a1a1;
+	.transition;
+}
+
+.footer a img.fb:hover {
+	background-color: #4862a3;
+}
+
+
+.footer a img.tw:hover {
+	background-color: #55acee;
+}
