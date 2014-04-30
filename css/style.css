@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/********************************************************************/
 a,
 a:link,
 a:visited {
@@ -23,6 +24,99 @@ a:hover {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+.inner {
+  margin-top: 50px;
+  color: #707070;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 12px;
+}
+.inner p {
+  text-indent: 10px;
+}
+.inner h5 {
+  color: #000000;
+  font-size: 20px;
+}
+.divider-dashed hr {
+  width: 100%;
+  margin: 15px 0px;
+  border: 0.09em dashed #707070;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.pad-sec {
+  padding-bottom: 45px;
+}
+.divider-solid {
+  width: 100%;
+  height: 5px;
+  background-color: #2bb251;
+}
+.func {
+  color: #2bb251;
+  margin-top: -10px;
+}
+/********************************PARALLAX's************************************/
+.overlay-parallax {
+  position: absolute;
+  width: 100%;
+  height: 510px;
+  background: url(../img/video-cover.01.png);
+  height: 360px;
+}
+.parallax {
+  margin: 0;
+  background-size: 100%;
+  height: 360px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+/*Coloque o caminho das suas imagens nos seletores de background*/
+#parallax1 {
+  background: url('../img/parallax1.jpg') 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 360px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#parallax2 {
+  background: url('../img/parallax2.jpg') 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 360px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+#parallax3 {
+  background: url('../img/parallax3.jpg') 100% no-repeat fixed;
+  margin: 0;
+  background-size: 100%;
+  height: 360px;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+}
+/********************************************************************************/
+.title {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 45px;
+  color: #2bb251;
+  background-color: #ffffff;
+  padding-right: 15px;
+  position: absolute;
+}
+.divider-title {
+  height: 3px;
+  width: 100%;
+  margin-top: 45px;
+  background-color: #defbec;
+}
+/**************************************HEADER**************************************/
 .submit {
   background-color: #2bb251;
   color: #ffffff;
@@ -68,13 +162,6 @@ nav a:hover {
   height: 510px;
   background: url(../img/video-cover.01.png);
 }
-.overlay-parallax {
-  position: absolute;
-  width: 100%;
-  height: 510px;
-  background: url(../img/video-cover.01.png);
-  height: 360px;
-}
 .headerImg {
   background: url(../img/header-img.jpg);
   background-size: 100%;
@@ -91,6 +178,8 @@ nav a:hover {
   font-family: 'Nunito', 'sans-serif';
   line-height: 35px;
 }
+/*****************************************************************************/
+/***********************************PATROCINADORES****************************/
 .patrocinio {
   background-color: #defbec;
   color: #707070;
@@ -101,38 +190,8 @@ nav a:hover {
 .patrocinio img {
   margin-top: -10px;
 }
-.title {
-  font-family: 'Open Sans', 'sans-serif';
-  font-size: 45px;
-  color: #2bb251;
-  background-color: #ffffff;
-  padding-right: 15px;
-  position: absolute;
-}
-.divider-title {
-  height: 3px;
-  width: 100%;
-  margin-top: 45px;
-  background-color: #defbec;
-}
-.inner {
-  margin-top: 50px;
-  color: #707070;
-  font-family: 'Open Sans', 'sans-serif';
-  font-size: 12px;
-}
-.inner p {
-  text-indent: 10px;
-}
-.inner h5 {
-  color: #000000;
-  font-size: 20px;
-}
-.divider-dashed hr {
-  width: 100%;
-  margin: 15px 0px;
-  border: 0.09em dashed #707070;
-}
+/*****************************************************************************/
+/***********************************RESPONSIVE VIDEO**************************/
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -149,52 +208,8 @@ nav a:hover {
   width: 100%;
   height: 100%;
 }
-.no-margin {
-  margin: 0 !important;
-}
-.pad-sec {
-  padding-bottom: 45px;
-}
-.divider-solid {
-  width: 100%;
-  height: 5px;
-  background-color: #2bb251;
-}
-.parallax {
-  margin: 0;
-  background-size: 100%;
-  height: 360px;
-  overflow: hidden;
-  width: 100%;
-  background-size: cover;
-}
-#parallax1 {
-  background: url('../img/parallax1.jpg') 100% no-repeat fixed;
-  margin: 0;
-  background-size: 100%;
-  height: 360px;
-  overflow: hidden;
-  width: 100%;
-  background-size: cover;
-}
-#parallax2 {
-  background: url('../img/parallax2.jpg') 100% no-repeat fixed;
-  margin: 0;
-  background-size: 100%;
-  height: 360px;
-  overflow: hidden;
-  width: 100%;
-  background-size: cover;
-}
-#parallax3 {
-  background: url('../img/parallax3.jpg') 100% no-repeat fixed;
-  margin: 0;
-  background-size: 100%;
-  height: 360px;
-  overflow: hidden;
-  width: 100%;
-  background-size: cover;
-}
+/*****************************************************************************/
+/***********************************EQUIPE************************************/
 .member {
   border-bottom: 1px solid #707070;
 }
@@ -204,13 +219,11 @@ nav a:hover {
 .member-header img {
   width: 100%;
 }
-.func {
-  color: #2bb251;
-  margin-top: -10px;
-}
 .member-body {
   padding: 5px;
 }
+/*****************************************************************************/
+/***********************************SOCIAL************************************/
 .redes {
   background-color: #2bb251;
   height: 230px;
@@ -223,9 +236,11 @@ nav a:hover {
   width: 68px;
   height: 68px;
 }
-.tooltip-test {
+.tooltip-social {
   padding: 24px 0px 27px 0px;
 }
+/*****************************************************************************/
+/***********************************GOOGLE MAPS********************************/
 .maps {
   margin-top: 40px;
   width: 100%;
@@ -244,6 +259,8 @@ nav a:hover {
   /* your iframe height */
 
 }
+/*****************************************************************************/
+/***********************************ROTAS+NEWSLETTER**************************/
 .rota-header h5 {
   margin: -3px 0 0 3px;
 }
@@ -288,12 +305,8 @@ nav a:hover {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-/*dl.Zebra_Accordion { width: 100%; font-family: Arial, sans-serif; font-size: 12px }
-dl.Zebra_Accordion dt { background: #000; color: #FFF; font-weight: bold; padding: 5px }
-dl.Zebra_Accordion dd { background: #EFEFEF; padding: 15px; margin: 1px 0; height:400px;}
- 
-dl.Zebra_Accordion dt.Zebra_Accordion_Expanded { background: #C40000 }
-*/
+/*****************************************************************************/
+/***********************************FAQ/ZebraAccordion************************/
 dl.Zebra_Accordion {
   width: 100%;
   font-family: 'Open Sans', 'sans-serif';
@@ -323,6 +336,8 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
   color: #ffffff;
   border-left: 4px solid #037b25;
 }
+/*****************************************************************************/
+/***********************************FOOTER************************************/
 .footer {
   text-align: center;
   background-color: #defbec;
@@ -368,3 +383,4 @@ dl.Zebra_Accordion dt.Zebra_Accordion_Expanded {
 .footer a img.tw:hover {
   background-color: #55acee;
 }
+/*****************************************************************************/
