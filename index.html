@@ -18,6 +18,8 @@
     <link href="css/flexslider.css" rel="stylesheet">
     <!--Sutekh Theme CSS-->
     <link href="css/style.css" rel="stylesheet">
+    <!--Sutekh Theme Media CSS-->
+    <link href="css/media.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,10 +35,10 @@
 
       <!--HEADER-->
       <header>
-        <div class="navBar">
+        <div class="navBar hidden-xs">
           <!--CONTAINER NAVBAR-->
           <div class="container">
-            <nav id="teste">
+            <nav class="nav-collapse">
               <a href="#home">Home</a>
               <a href="#intro">Introdução</a>
               <a href="#apre">Apresentação</a>
@@ -65,7 +67,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 hidden-xs">
                       <!--Coloque a data que deseja dentro do atributo data-date, no formato "YYYY/MM/DD HH:MM:SS"-->
                       <div id="DateCountdown" data-date="2015-01-01 00:00:00" style="height: 125px; padding: 0px; box-sizing: border-box;margin-left: 20px;"></div>
                     </div>
@@ -78,19 +80,19 @@
         <!--PATROCINADORES-->
         <div class="patrocinio">
           <div class="container">
-            <div class="col-md-3">
+            <div class="col-md-3 med-mar">
               <p class="text-center">oferecimento</p>
               <img src="img/img1.png">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 med-mar">
               <p class="text-center">assistência</p>
               <img src="img/img2.png">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 med-mar">
               <p class="text-center">suporte</p>
               <img src="img/img3.png">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 med-mar">
               <p class="text-center">patrocínio</p>
               <img src="img/img4.png">
             </div>
@@ -194,7 +196,7 @@
             <div class="col-md-6">
               <div class="flexslider">
                 <ul class="slides">
-                  <!--Coloque o caminho das imagens desejadas nas li's abaixo-->
+                  <!--Coloque o diretório das imagens desejadas nas li's abaixo-->
                   <li>
                     <img src="img/slide1.jpg" />
                   </li>
@@ -308,34 +310,34 @@
           </div>
           <div class="row inner">
             <div id="too">
-              <div class="col-md-1 col-md-offset-1">
+              <div class="text-center col-md-1 col-md-offset-1 med-mar-redes">
                 <a href="#" class="tooltip-social" title="" data-original-title="Facebook"><img src="img/facebook-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="text-center col-md-1 med-mar-redes">
                 <a href="#" class="tooltip-social" title="" data-original-title="Twitter"><img src="img/twitter-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="text-center col-md-1 med-mar-redes">
                 <a href="#" class="tooltip-social" title="" data-original-title="Youtube"><img src="img/youtube-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="text-center col-md-1 med-mar-redes">
                 <a href="#" class="tooltip-social" title="" data-original-title="Google Plus"><img src="img/googleplus-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="LinkedIn"><img src="img/linkedin-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="Tumblr"><img src="img/tumblr-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="GitHub"><img src="img/github-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="WordPress"><img src="img/wordpress-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="Pinterest"><img src="img/pinterest-logo.png"></a>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 hidden-xs">
                 <a href="#" class="tooltip-social" title="" data-original-title="Stack Overflow"><img src="img/stackoverflow-logo.png"></a>
               </div>
             </div>
@@ -409,7 +411,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-center">Inscreva-se e receba nossas atualizações!</h2>
+              <h2 class="text-center med-font-size">Inscreva-se e receba nossas atualizações!</h2>
             </div>
           </div>
           <div class="row">
@@ -422,7 +424,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <h5 class="text-center">Caso queira receber todas as nossas atualizações insira seu e-mail acima!</h5>
+              <h5 class="text-center med-font-size-small">Caso queira receber todas as nossas atualizações insira seu e-mail acima!</h5>
             </div>
           </div>
         </div>
@@ -498,7 +500,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center">Inscreva-se agora! E ganhe um desconto.</h1>
+              <h1 class="text-center med-font-small-final">Inscreva-se agora! E ganhe um desconto.</h1>
             </div>
           </div>
           <div class="row">
@@ -515,7 +517,7 @@
         </div>  
           <div class="row">
             <div class="col-md-12">
-              <p class="pull-left">Desenvolvido por GraveyardStudios</p>
+              <p class="pull-left med-font-size-small">Desenvolvido por GraveyardStudios</p>
               <div class="pull-right">
                 <a href=""><img src="img/facebook-logo-bw.png" class="fb"></a>
                 <a href=""><img src="img/twitter-logo-bw.png" class="tw"></a>
@@ -531,6 +533,7 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
     <!--Tooltips-->
     <script type="text/javascript">
       $( document ).ready(function() {
